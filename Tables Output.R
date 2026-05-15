@@ -44,6 +44,7 @@ observer_total_table <- observer_totals |>
     n_projects = "Projects"
   )
 
+#Output for Table 2 as png
 gtsave(observer_total_table, "./tables/tbl2_projects_total.png")
 
 #Calculating the number of projects by working group
@@ -80,5 +81,6 @@ observer_by_wg_table <- observer_by_wg_table |>
     palette = "Blues"
   )
 
+#Output for Table 3 as png
 gtsave(observer_by_wg_table, "./tables/tbl3_projects_by_wg.png")
 
