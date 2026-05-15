@@ -110,5 +110,5 @@ result <- result |>
     )
   )
 
-#Outputing the data
+#Output data to folder
 write_rds(result, "./data/amarok_data.rds")
